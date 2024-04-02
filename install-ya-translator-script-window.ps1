@@ -34,7 +34,8 @@ pip install psutil
 pip install tkdesigner
 pip install user_agent
 pip install pywin32
-
+pip install pytube
+pip install --upgrade google-cloud-translate
 
 
 cd C:/
