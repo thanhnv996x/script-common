@@ -18,8 +18,6 @@ git --version
 python --version
 aws --version
 
-pip install -r  ./requirements.txt
-
 cd C:/
 git clone https://thanhnv9961:glpat-zEEumkGHhgwMHJndxNw4@gitlab.com/thanhnv996/ya-render-encrypt.git YARender
 cd YARender
