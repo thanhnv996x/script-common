@@ -13,10 +13,6 @@ Import-Module \"\$env:ChocolateyInstall\helpers\chocolateyProfile.psm1\"
 
 refreshenv
 
-git --version
-python --version
-aws --version
-
 pip install -r  ./requirements.txt
 
 cd C:/
