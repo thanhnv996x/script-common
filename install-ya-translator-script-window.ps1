@@ -36,6 +36,11 @@ pip install user_agent
 pip install pywin32
 pip install pytube
 pip install --upgrade google-cloud-translate
+pip install Eel
+pip install chromedriver_autoinstaller
+pip install google_auth_oauthlib
+pip install google-api-python-client
+pip install jsonpickle
 
 
 cd C:/
