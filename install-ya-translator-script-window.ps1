@@ -41,6 +41,7 @@ pip install chromedriver_autoinstaller
 pip install google_auth_oauthlib
 pip install google-api-python-client
 pip install jsonpickle
+pip install openpyxl
 
 
 cd C:/
