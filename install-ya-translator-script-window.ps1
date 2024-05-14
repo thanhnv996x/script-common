@@ -45,5 +45,5 @@ pip install openpyxl
 
 
 cd C:/
-git clone https://thanhnv9961:glpat-zEEumkGHhgwMHJndxNw4@gitlab.com/thanhnv996/yatranslator.git YATranslator
+git clone https://thanhnv9961:glpat-f-51NKzzTa-jyp54RDuV@gitlab.com/thanhnv996/yatranslator.git YATranslator
 cd YATranslator
