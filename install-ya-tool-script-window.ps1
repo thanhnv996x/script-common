@@ -19,7 +19,7 @@ python --version
 aws --version
 
 cd C:/
-git clone https://thanhnv9961:glpat-zEEumkGHhgwMHJndxNw4@gitlab.com/thanhnv996/ya-tool-encrypt.git YATool
+git clone https://thanhnv9961:glpat-f-51NKzzTa-jyp54RDuV@gitlab.com/thanhnv996/ya-tool-encrypt.git YATool
 cd YATool
 
 pip install -r  ./requirements.txt
