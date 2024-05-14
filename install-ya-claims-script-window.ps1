@@ -14,7 +14,7 @@ Import-Module \"\$env:ChocolateyInstall\helpers\chocolateyProfile.psm1\"
 refreshenv
 
 cd C:/
-git clone https://thanhnv9961:glpat-zEEumkGHhgwMHJndxNw4@gitlab.com/thanhnv996/ya-claims-encrypt.git YAClaims
+git clone https://thanhnv9961:glpat-f-51NKzzTa-jyp54RDuV@gitlab.com/thanhnv996/ya-claims-encrypt.git YAClaims
 cd YAClaims
 
 pip install -r  ./requirements.txt
