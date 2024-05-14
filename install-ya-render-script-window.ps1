@@ -19,5 +19,5 @@ python --version
 aws --version
 
 cd C:/
-git clone https://thanhnv9961:glpat-zEEumkGHhgwMHJndxNw4@gitlab.com/thanhnv996/ya-render-encrypt.git YARender
+git clone https://thanhnv9961:glpat-f-51NKzzTa-jyp54RDuV@gitlab.com/thanhnv996/ya-render-encrypt.git YARender
 cd YARender
