@@ -33,7 +33,7 @@ curl -sS https://getcomposer.org/installer -o /tmp/composer-setup.php
 HASH=`curl -sS https://composer.github.io/installer.sig`
 php -r "if (hash_file('SHA384', '/tmp/composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
 sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer
-composer
+export COMPOSER_ALLOW_SUPERUSER=1; composer --version;
 
 # Install Java
 sudo apt update
@@ -69,6 +69,14 @@ sudo service apache2 restart
 sudo update-alternatives --set php /usr/bin/php7.4
 
 # Configure Apache2
+mkdir /var/lib/jenkins/
+mkdir /var/lib/jenkins/workspace
+cd  /var/lib/jenkins/workspace
+git clone https://thanhnv996:glpat-xxxx@gitlab.com/thanhnv996/ya-seo-schedules.git
+
+sudo apt update
+sudo apt install apache2
+
 nano /etc/apache2/sites-available/ya-seo-schedules.conf
 <VirtualHost *:80>
         #ServerName tools.hitmakers.vip
@@ -86,10 +94,16 @@ nano /etc/apache2/sites-available/ya-seo-schedules.conf
         </Directory>
 </VirtualHost>
 
+cd /etc/apache2/sites-available/
 a2dissite 000-default.conf
 sudo a2ensite ya-seo-schedules.conf
+sudo a2enmod rewrite
 systemctl reload apache2
 
+cd /var/lib/jenkins/workspace/ya-seo-schedules
+cp .env.example .env
+composer i
+php artisan key:generate
 chown -R $USER:www-data storage
 chmod -R 775 storage
 chmod -R 775 bootstrap/cache
