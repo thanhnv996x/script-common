@@ -42,6 +42,10 @@ pip install google_auth_oauthlib
 pip install google-api-python-client
 pip install jsonpickle
 pip install openpyxl
+pip install aiohttp
+pip install aiofiles
+pip install pyquery
+pip install js2py
 
 
 cd C:/
