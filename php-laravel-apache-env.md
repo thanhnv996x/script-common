@@ -53,6 +53,9 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
 sudo apt-get update
 sudo apt-get -y install jenkins
 
+sudo chown -R jenkins:jenkins /var/lib/jenkins/workspace
+sudo chmod -R 755 /var/lib/jenkins/workspace
+
 # Install npm
 sudo apt update
 cd ~
