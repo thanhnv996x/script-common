@@ -56,6 +56,8 @@ sudo apt-get -y install jenkins
 sudo chown -R jenkins:jenkins /var/lib/jenkins/workspace
 sudo chmod -R 755 /var/lib/jenkins/workspace
 
+chmod 777 /var/run/docker.sock
+
 # Install npm
 sudo apt update
 cd ~
