@@ -49,5 +49,5 @@ pip install js2py
 
 
 cd C:/
-git clone https://thanhnv9961:glpat-f-51NKzzTa-jyp54RDuV@gitlab.com/thanhnv996/yatranslator.git YATranslator
-cd YATranslator
+git clone https://thanhnv9961:glpat-f-51NKzzTa-jyp54RDuV@gitlab.com/thanhnv996/yatranslator.git YAMasterTub
+cd YAMasterTub
