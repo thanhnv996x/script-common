@@ -46,6 +46,7 @@ pip install aiohttp
 pip install aiofiles
 pip install pyquery
 pip install js2py
+pip install openai==0.28
 
 
 cd C:/
