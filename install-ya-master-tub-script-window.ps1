@@ -47,7 +47,8 @@ pip install aiofiles
 pip install pyquery
 pip install js2py
 pip install openai==0.28
-
+pip install yt_dlp
+pip install pydub
 
 cd C:/
 git clone https://thanhnv9961:glpat-f-51NKzzTa-jyp54RDuV@gitlab.com/thanhnv996/yatranslator.git YAMasterTub
