@@ -42,7 +42,7 @@ pip install google_auth_oauthlib
 pip install google-api-python-client
 pip install jsonpickle
 pip install openpyxl
-pip install aiohttp
+pip install aiohttp==3.9.5
 pip install aiofiles
 pip install pyquery
 pip install js2py
