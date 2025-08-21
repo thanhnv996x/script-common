@@ -51,5 +51,5 @@ pip install yt_dlp
 pip install pydub
 
 cd C:/
-git clone https://thanhnv9961:glpat-f-51NKzzTa-jyp54RDuV@gitlab.com/thanhnv996/yatranslator-leo-v2-encrypt.git LAMaster
+git clone https://thanhnv9961:glpat-kfoZcAh1MhkYBA2vPTZR@gitlab.com/thanhnv996/yatranslator-leo-v2-encrypt.git LAMaster
 cd LAMaster
