@@ -5,7 +5,7 @@ choco install -y git
 
 choco install -y python --version=3.9.0
 
-#choco install python visualstudio2022-workload-vctools -y
+choco install visualstudio2022-workload-vctools -y
 
 Start-Process msiexec.exe -Wait -ArgumentList '/i \"https://awscli.amazonaws.com/AWSCLIV2.msi\" /q'
 
@@ -43,6 +43,7 @@ pip install chromedriver_autoinstaller
 pip install google_auth_oauthlib
 pip install google-api-python-client
 pip install jsonpickle
+pip install orjson==3.11.3
 pip install openpyxl
 pip install aiohttp==3.9.5
 pip install aiofiles
