@@ -37,11 +37,13 @@ pip install tkdesigner
 pip install user_agent
 pip install pywin32
 pip install pytube
-pip install --upgrade google-cloud-translate
+
+pip install google-cloud-translate==3.20.2
+pip install google_auth_oauthlib==1.2.0
+pip install google-api-python-client==2.121.0
+
 pip install Eel
 pip install chromedriver_autoinstaller
-pip install google_auth_oauthlib
-pip install google-api-python-client
 pip install jsonpickle
 pip install orjson==3.11.3
 pip install openpyxl
